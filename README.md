@@ -1,5 +1,7 @@
 # es_extended-para
 
+Hazırı İndirebilirisniz.
+
 es_extended\server\lasses\player.lua 27.satırından aşağıdaki kodu bulunuz.
 ```
 self.getMoney = function()
