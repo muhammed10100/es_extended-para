@@ -1,6 +1,6 @@
 # Disc-inventoryhud - Para'yı İteme Çevirme Es_extended Kısmında Aratır.
 
-**Hazırı İndirebilirisniz.**
+**Hazır'ı İndirebilirisniz.**
 
 **es_extended\server\lasses\player.lua 27.satırından aşağıdaki kodu bulunuz.**
 ```
