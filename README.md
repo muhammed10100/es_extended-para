@@ -2,7 +2,7 @@
 
 **Hazırı İndirebilirisniz.**
 
-es_extended\server\lasses\player.lua 27.satırından aşağıdaki kodu bulunuz.
+**es_extended\server\lasses\player.lua 27.satırından aşağıdaki kodu bulunuz.**
 ```
 self.getMoney = function()
     return self.player.get('money')
