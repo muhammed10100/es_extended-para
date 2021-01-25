@@ -67,3 +67,4 @@ self.addMoney = function(money)
     end
 end
 ```
+**Bu işlemleri tamamladıktan sanra HeidiSQL uygulamasındaki kendi databasenize gelip item tablosuna 'cash' adında item oluşturmanız lazım.**
