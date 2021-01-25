@@ -1,13 +1,13 @@
 # es_extended-para
 
 es_extended\server\lasses\player.lua 27.satırından aşağıdaki kodu bulunuz.
-
+```
 self.getMoney = function()
     return self.player.get('money')
 end
-
+```
 Bu kodu aşağıdaki kod ile değiştiriniz.
-
+```
 self.getMoney = function()
     local money = self.getInventoryItem('cash')
     
@@ -16,10 +16,10 @@ self.getMoney = function()
     end
     return money.count
 end
-
+```
 
 es_extended\server\lasses\player.lua 65.satırından aşağıdaki kodu bulunuz.
-
+```
 self.addMoney = function(money)
     money = ESX.Math.Round(money)
     if money >= 0 then
@@ -36,9 +36,9 @@ self.addMoney = function(money)
         print(('es_extended: %s attempted exploiting! (reason: player tried removing -1 cash balance)'):format(self.identifier))
     end
 end
-
+```
 Bu kodu aşağıdaki kod ile değiştir.
-
+```
 self.addMoney = function(money)
     money = ESX.Math.Round(money)
     if money >= 0 then
@@ -64,3 +64,4 @@ self.addMoney = function(money)
         print(('es_extended: %s attempted exploiting! (reason: player tried removing -1 cash balance)'):format(self.identifier))
     end
 end
+```
