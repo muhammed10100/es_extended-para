@@ -1,6 +1,6 @@
 # Disc-inventoryhud - Para'yı İteme Çevirme Es_extended Kısmında Aratır.
 
-Hazırı İndirebilirisniz.
+**Hazırı İndirebilirisniz.**
 
 es_extended\server\lasses\player.lua 27.satırından aşağıdaki kodu bulunuz.
 ```
@@ -8,7 +8,7 @@ self.getMoney = function()
     return self.player.get('money')
 end
 ```
-Bu kodu aşağıdaki kod ile değiştiriniz.
+**Bu kodu aşağıdaki kod ile değiştiriniz.**
 ```
 self.getMoney = function()
     local money = self.getInventoryItem('cash')
@@ -20,7 +20,7 @@ self.getMoney = function()
 end
 ```
 
-es_extended\server\lasses\player.lua 65.satırından aşağıdaki kodu bulunuz.
+**es_extended\server\lasses\player.lua 65.satırından aşağıdaki kodu bulunuz.**
 ```
 self.addMoney = function(money)
     money = ESX.Math.Round(money)
@@ -39,7 +39,7 @@ self.addMoney = function(money)
     end
 end
 ```
-Bu kodu aşağıdaki kod ile değiştir.
+**Bu kodu aşağıdaki kod ile değiştir.**
 ```
 self.addMoney = function(money)
     money = ESX.Math.Round(money)
