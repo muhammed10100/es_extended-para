@@ -70,3 +70,4 @@ end
 **Bu işlemleri tamamladıktan sanra HeidiSQL uygulamasındaki kendi databasenize gelip item tablosuna 'cash' adında item oluşturmanız lazım.**
 **Bu işlemde tamamladıktan sanra HeidiSQL uygulamasındaki kendi databasenize gelip item tablosuna 'black_money' adında item oluşturmanız lazım.
 Bu işlem envanterinizde kara para gösükmesini sağlar.**
+**BUKADAR :D**
