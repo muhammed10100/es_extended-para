@@ -3,13 +3,13 @@
 **Hazır'ı İndirebilirisniz.**
 
 **es_extended\server\lasses\player.lua 27.satırından aşağıdaki kodu bulunuz.**
-```
+```lua
 self.getMoney = function()
     return self.player.get('money')
 end
 ```
 **Bu kodu aşağıdaki kod ile değiştiriniz.**
-```
+```lua
 self.getMoney = function()
     local money = self.getInventoryItem('cash')
     
@@ -21,7 +21,7 @@ end
 ```
 
 **es_extended\server\lasses\player.lua 65.satırından aşağıdaki kodu bulunuz.**
-```
+```lua
 self.addMoney = function(money)
     money = ESX.Math.Round(money)
     if money >= 0 then
@@ -40,7 +40,7 @@ self.addMoney = function(money)
 end
 ```
 **Bu kodu aşağıdaki kod ile değiştir.**
-```
+```lua
 self.addMoney = function(money)
     money = ESX.Math.Round(money)
     if money >= 0 then
